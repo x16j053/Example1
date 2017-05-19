@@ -22,7 +22,7 @@ namespace Example1
             DateTime curTime = DateTime.Now;
             lblDateTime.Text =
                 String.Format("現在時刻は{0}{1}です",
-                curTime.ToShortDateString(), curTime.ToShortTimeString());9
+                curTime.ToShortDateString(), curTime.ToShortTimeString());
         }
     }
 }
